@@ -1,0 +1,253 @@
+
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: cursive;
+    font-size: x-large;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/ai.55.jpg); 
+    background-size: contain;
+    
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 470px; 
+    width: 100%;
+    margin: 0;
+}
+
+.h1 {
+    text-align: center;
+    padding-top: 7%;
+    margin: 0;
+    text-shadow: 2.5px 2.5px 1.8px rgb(0, 0, 0);
+    color: rgb(223, 21, 226);
+}
+.nav {
+    padding: 2em 0em 3em 0em;
+}
+.nav a {
+    font-weight: 700;
+    color:rgb(238, 231, 20); 
+    text-shadow: 2.5px 2.5px 2px rgb(0, 0, 0);
+}
+
+.nav a:hover {
+    color: rgb(223, 21, 226);
+}
+
+.inline {
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+    font-weight: bolder;
+    margin-top: 2em;
+}
+
+.about {
+    text-align: center;
+   padding-bottom: 1em;
+   text-shadow: 1.8px 1.8px 1.9px rgb(0, 0, 0);
+   color: rgb(223, 21, 226);
+  
+}
+.ms{
+    text-align: center;
+    padding-bottom: 3em;
+    text-shadow: 0.8px 0.8px 1.1px rgb(223, 21, 226);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.quiz {
+    text-align: center;
+    padding-top: 1em;
+    color: rgb(238, 231, 20);
+    text-shadow: 3.0px 3.0px 1.8px rgb(29, 2, 30);
+}
+.frrr {
+    color: rgb(223, 21, 226);
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+}
+.aside {
+    text-align: center;
+    padding-bottom: 3em; 
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color: rgb(234, 215, 7);
+}
+
+.here {
+    color: rgb(223, 21, 226);
+    transition: text-decoration 0.8s ease;}
+.here:hover {
+    text-decoration: underline;  
+    text-decoration-color: rgb(234, 215, 7) ;
+}
+.menu {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 2em;
+    padding-bottom: 0.7em;
+    color: rgb(223, 21, 226);
+    text-shadow: 3.0px 2.0px 2.8px rgb(29, 2, 30);
+}
+.table {
+    width: 60vw;
+    margin: 0 auto;
+    border: solid rgb(223, 21, 226) 3px;
+    background-color: #7393c2;
+    background-image: url(images/farty.jpg);
+    background-position: center;
+    background-size: contain;
+    background-position-x: 1.2em;
+    background-position-y: -0.3em;
+    border-radius:  2%;
+}
+td {
+    color:rgb(234, 215, 7) ;
+    text-align: center;
+    background-color: rgba(115,147,194,250);
+    border: solid lightblue 0.1px;
+text-shadow: 1.5px 1.5px 1px rgb(0, 0, 0);
+border-radius: 2px ;}
+    
+
+th {
+    color: rgb(223, 21, 226);
+    text-shadow: 3.0px 2.0px 1.5px rgb(0, 0, 0);
+    border: 0.1px solid;
+    border-radius: 2px ;
+}
+.back {
+    text-align: center;
+    text-shadow: 0.1px 0.1px 5.1px rgb(223, 21, 226);
+}
+.back a:hover {
+    text-shadow: 0.1px 0.1px 5.1px rgb(223, 21, 226);
+    color: rgb(223, 21, 226);
+}
+.coppy {
+    text-align: center;
+    color: #0a3072;
+}
+.hr {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+a {
+    text-decoration: none; 
+    color: inherit;  
+}
+
+
+
+  
+
+.h2 {
+    text-align: center;
+    margin-top: 4em;
+    text-shadow: 2.5px 2.5px 2.3px rgb(0, 0, 0);
+    color: rgb(223, 21, 226);
+}
+.img{
+    border-radius: 40%;
+  }
+  figure {
+    padding-left: 4em;
+  }
+  .figcall {
+    padding-left: 1em;
+    color: rgb(238, 9, 16);
+    text-shadow: 1.0px 1.0px 1.8px rgb(0, 0, 0);
+  }
+  .fieldset{
+    border: none;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 2em;
+  }
+  .label {
+display: block;
+color: rgb(238, 231, 20);
+text-shadow: 1.9px 1.9px 1.8px rgb(29, 2, 30);
+font-weight: bolder;
+  }
+  .input{
+    margin: 0 auto;
+    width: max-content;
+    width: 60vw;
+    margin-bottom: 1em;
+    padding: 0.7em;
+    color: rgb(255, 251, 3);
+    background-color: rgba(115,147,194,250);
+    border: none;
+    font-size: large;
+    border-radius: 6px;
+    font-weight: 480;
+    text-shadow: 1px 1px 2px #0a3072;
+  }
+ 
+
+  .buttoncc {
+    display: flex; 
+    justify-content: center; 
+    gap: 53px;  
+    margin-top: 20px; 
+}
+
+.button {
+    width: 370px; 
+    padding: 11px; 
+    font-size: 25px;
+    color: rgb(241, 241, 6);
+    text-shadow: 2px 2px 1px #22427b;
+    background-color: rgba(115,147,194,250);
+    border: none;
+    border-radius: 6px; 
+    text-align: center; 
+}
+.button:hover {
+    background-color: #3e7a96;
+}
+.h3 {
+    color: #22427b;
+    text-shadow: 1px 1px 2px rgb(30, 129, 176);
+    text-decoration: underline;
+}
+ .address {
+    color: #22427b;
+}
+.phone {
+    transition: 0.9s ease;
+}
+.phone:hover {
+    color: rgb(234, 13, 237);
+    text-shadow: 0.5px 0.5px 1px #22427b ;
+}
+.loc {
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 7em;
+}
+ .loc2 {
+    width: 400px;
+    
+ }
+  
+  .rolling {
+    text-align: center;
+    padding-top: 1em;
+    color: rgb(223, 21, 226);
+    text-shadow: 2.0px 2.0px 2.8px rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+  
